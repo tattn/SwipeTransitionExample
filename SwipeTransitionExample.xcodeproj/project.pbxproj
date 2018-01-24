@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		240309422017A3F30021F2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240309412017A3F30021F2D2 /* AppDelegate.swift */; };
-		240309442017A3F30021F2D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240309432017A3F30021F2D2 /* ViewController.swift */; };
 		240309472017A3F30021F2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240309452017A3F30021F2D2 /* Main.storyboard */; };
 		240309492017A3F30021F2D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240309482017A3F30021F2D2 /* Assets.xcassets */; };
 		2403094C2017A3F30021F2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2403094A2017A3F30021F2D2 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		2403093E2017A3F30021F2D2 /* SwipeTransitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeTransitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		240309412017A3F30021F2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		240309432017A3F30021F2D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		240309462017A3F30021F2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		240309482017A3F30021F2D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2403094B2017A3F30021F2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				240309412017A3F30021F2D2 /* AppDelegate.swift */,
-				240309432017A3F30021F2D2 /* ViewController.swift */,
 				240309532017A4180021F2D2 /* SwipeBack.swift */,
 				240309552017B6790021F2D2 /* SwipeToDismiss.swift */,
 				240309452017A3F30021F2D2 /* Main.storyboard */,
@@ -143,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				240309542017A4180021F2D2 /* SwipeBack.swift in Sources */,
-				240309442017A3F30021F2D2 /* ViewController.swift in Sources */,
 				240309562017B6790021F2D2 /* SwipeToDismiss.swift in Sources */,
 				240309422017A3F30021F2D2 /* AppDelegate.swift in Sources */,
 			);
