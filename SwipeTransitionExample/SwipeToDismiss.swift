@@ -66,12 +66,15 @@ extension SwipeToDismissNaviagtionController: UIViewControllerTransitioningDeleg
 }
 
 final class SwipeToDismissAnimator: NSObject, UIViewControllerAnimatedTransitioning {
+    private weak var fromView: UIView?
+
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.3
     }
 
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let from = transitionContext.viewController(forKey: .from) else { return }
+        fromView = from.view
 
         UIView.animate(
             withDuration: transitionDuration(using: transitionContext),
@@ -86,5 +89,8 @@ final class SwipeToDismissAnimator: NSObject, UIViewControllerAnimatedTransition
     }
 
     func animationEnded(_ transitionCompleted: Bool) {
+        if !transitionCompleted {
+            fromView?.transform = .identity
+        }
     }
 }
