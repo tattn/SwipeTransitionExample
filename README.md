@@ -7,6 +7,11 @@ The small implementation of the custom transition using swipe.
 
 <img src="https://github.com/tattn/SwipeTransitionExample/raw/master/assets/demo.gif" width="400px" alt="demo" />
 
+|Gesture|Implementation|
+|:---:|:---:|
+|Swipe back|[SwipeBack.swift](https://github.com/tattn/SwipeTransitionExample/blob/master/SwipeTransitionExample/SwipeBack.swift)|
+|Swipe to dismiss|[SwipeToDismiss.swift](https://github.com/tattn/SwipeTransitionExample/blob/master/SwipeTransitionExample/SwipeToDismiss.swift)|
+
 # Reference
 
 [**SwipeTransition**](https://github.com/tattn/SwipeTransition): Swipe transition library using this implementation.
