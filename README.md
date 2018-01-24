@@ -5,6 +5,8 @@ SwipeTransitionExample
 
 The small implementation of the custom transition using swipe.
 
+<img src="https://github.com/tattn/SwipeTransitionExample/raw/master/assets/demo.gif" width="400px" alt="demo" />
+
 # Reference
 
 [**SwipeTransition**](https://github.com/tattn/SwipeTransition): Swipe transition library using this implementation.
